@@ -26,6 +26,26 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "platforms": ["ios", "android","web"]
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "assets/images/*",
+      "assets/fonts/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d90e1bd4-b1ba-4ca2-8721-4d9dbe0e2e40"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/d90e1bd4-b1ba-4ca2-8721-4d9dbe0e2e40"
+    }
+    
   }
 }
